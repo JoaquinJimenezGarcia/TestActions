@@ -7,7 +7,7 @@ env:
 
 jobs:
   Explore-GitHub-Actions:
-    if: ${{ vars.NUMBER_DAY == '16' }}
+    if: ${{ vars.NUMBER_DAY == '17' }}
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
